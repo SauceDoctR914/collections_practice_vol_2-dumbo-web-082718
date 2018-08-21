@@ -27,6 +27,7 @@ def count_elements(array)
   newArr = []
    array.each do |hash|
      newArr << {:name => hash[:name], :count => 1}
+     newArr.map  
    end
     newArr 
 end
