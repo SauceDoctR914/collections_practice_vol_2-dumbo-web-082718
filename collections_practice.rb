@@ -24,10 +24,10 @@ end
 
 
 def count_elements(array)
-   newArr = array.select do |thing| 
-     thing == self
-      end
-   newArr.size
+  newArr = []
+   array.each do |hash|
+     newArr << hash
+     
 end
 
 
