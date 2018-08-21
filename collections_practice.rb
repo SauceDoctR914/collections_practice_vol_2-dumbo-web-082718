@@ -28,7 +28,8 @@ def count_elements(array)
    array.each do |hash|
      newArr << {:name => hash[:name], :count => 1}
      newArr.detect {|i| i[:name] == hash[:name] }
-     i[:name] += 1
+     i[:name] = count
+     count += 1
    end
     newArr 
 end
